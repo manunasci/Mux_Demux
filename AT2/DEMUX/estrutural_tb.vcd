@@ -1,0 +1,55 @@
+$date
+	Mon Sep 16 11:22:38 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module estrutural_tb $end
+$var wire 4 ! Y [3:0] $end
+$var reg 1 " D $end
+$var reg 2 # S [1:0] $end
+$scope module uut $end
+$var wire 1 " D $end
+$var wire 2 $ S [1:0] $end
+$var wire 1 % n_s0 $end
+$var wire 1 & n_s1 $end
+$var wire 4 ' Y [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 '
+1&
+1%
+b0 $
+b0 #
+1"
+b1 !
+$end
+#20
+0%
+b10 !
+b10 '
+b1 #
+b1 $
+#40
+0&
+1%
+b100 !
+b100 '
+b10 #
+b10 $
+#60
+0%
+b1000 !
+b1000 '
+b11 #
+b11 $
+#80
